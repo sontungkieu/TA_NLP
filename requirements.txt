@@ -11,7 +11,7 @@ Evaluation metric: Precision, recall, F1
  
 Hai bạn xem các yêu cầu của bài practice và soạn cho thày code nhé
  
-Mình cần hai code, 1 là template, để trống để sinh viên tự làm
+Mình cần hai code, 1 là exercise, để trống để sinh viên tự làm
  
 2 là solution
  
@@ -23,7 +23,7 @@ Hai bạn gán thủ công cho mình bộ 100 câu để làm đánh giá cho b�
  
 Bài 1 có thêm y/c này nữa nhé: Generate some sentences using the trained language model
  
-Các bạn đã hoàn thành code template và solution chưa nhỉ?
+Các bạn đã hoàn thành code exercise và solution chưa nhỉ?
  
 dạ bọn em hiện đã chia nhau công việc từ mấy hôm trước rồi ạ, để em trao đổi lại với Tùng xem cả 2 làm đến đâu rồi sẽ báo lại ạ
  
