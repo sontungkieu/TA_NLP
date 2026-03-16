@@ -46,10 +46,23 @@ def load_dictionary(path: str | Path) -> tuple[set[str], int]:
 
 
 def segment_text(text: str, lexicon: set[str], max_word_len: int) -> list[str]:
+    # Suggested flow:
+    # 1. Tokenize with tokenize_text(text).
+    # 2. Sweep left-to-right over the token list.
+    # 3. At each position, try candidate spans from max length down to 1.
+    # 4. Join the candidate with spaces for lexicon lookup.
+    # 5. If matched, emit the original surface tokens joined by '_'.
+    # 6. Otherwise emit the current token unchanged.
     raise NotImplementedError("TODO: implement forward maximum matching.")
 
 
 def evaluate(pred_sentences: Iterable[str], gold_sentences: Iterable[str]) -> tuple[float, float, float]:
+    # Suggested flow:
+    # 1. Convert each segmented sentence into syllables and boundary spans.
+    # 2. Ensure prediction and gold reduce to the same syllable sequence.
+    # 3. Count overlap between predicted and gold spans.
+    # 4. Accumulate predicted_total and gold_total.
+    # 5. Compute precision, recall, and F1 with zero-division guards.
     raise NotImplementedError("TODO: implement precision, recall, and F1 for word boundaries.")
 
 
