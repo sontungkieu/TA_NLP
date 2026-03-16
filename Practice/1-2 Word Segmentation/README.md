@@ -6,6 +6,7 @@ Branch này chỉ giữ phần cần giao cho sinh viên:
 - `exercise/word_segmenter.py`: skeleton cho sinh viên tự hoàn thiện.
 - `vn-dict.txt`: từ điển tiếng Việt dùng cho maximum matching.
 - `data/eval_input.txt`: 100 câu đầu vào lấy trực tiếp từ corpus để thử nghiệm.
+- `data/eval_gold.txt`: 100 câu gold segmentation tương ứng để sinh viên tự đánh giá.
 
 ## Cách chạy exercise
 
@@ -29,6 +30,15 @@ Segment một file:
 python3 "Practice/1-2 Word Segmentation/exercise/word_segmenter.py" \
   --mode segment \
   --input "Practice/1-2 Word Segmentation/data/eval_input.txt"
+```
+
+Tự chấm trên bộ 100 câu:
+
+```bash
+python3 "Practice/1-2 Word Segmentation/exercise/word_segmenter.py" \
+  --mode evaluate \
+  --input "Practice/1-2 Word Segmentation/data/eval_input.txt" \
+  --gold "Practice/1-2 Word Segmentation/data/eval_gold.txt"
 ```
 
 ## Yêu cầu bài tập
