@@ -1,2 +1,6 @@
 *.zip
+*.zip*
 *.zipo
+.env
+*.env
+.vscode/
