@@ -1,2 +1,13 @@
 Practice.zip
 Practice.zipo
+*.zip
+*.zip*
+*.zipo
+.env
+*.env
+.vscode/
+AGENTS.md
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
