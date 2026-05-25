@@ -30,6 +30,7 @@ python3 -m pip install -r requirements.txt
 - `Practice/1-2 Word Segmentation`: bản exercise cho word segmentation.
 - `Practice/2-1 POS Tagging`: bản exercise cho POS tagging trên Brown corpus.
 - `Practice/3-1`: notebook Text Summarization/BertSum tải dữ liệu từ Hugging Face thay cho Google Drive.
+- `Practice/3-2`: notebook Question Answering với ELECTRA trên SQuAD.
 - `NLP-Thực hành trên lớp-12.ipynb`: notebook thực hành seq2seq với attention cho bài toán dịch máy Anh-Việt.
 - `data_iwslt15/`: dữ liệu IWSLT15 Anh-Việt dùng cho bài thực hành 12.
 
